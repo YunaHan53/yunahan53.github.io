@@ -463,7 +463,7 @@ section {
 }
 
 .about .image {
-  background: url("../img/stairspose.jpg") center center no-repeat;
+  background: url("../img/pose1.jpg") center center no-repeat;
   background-size: cover;
   min-height: 400px;
 }
@@ -487,17 +487,17 @@ section {
 # Skills
 --------------------------------------------------------------*/
 .skills .icons {
-  height: 50px;
+  height: 30px;
+  width: 30px;
   display: block;
   background: none;
 }
 
 .skills .icons .details {
-  padding: 0;
+  padding: 10px;
   margin: 0 0 6px 0;
-  text-transform: uppercase;
   display: block;
-  font-weight: 600;
+  font-weight: 400;
   font-family: "Poppins", sans-serif;
   color: #2c4964;
   float: right;
@@ -518,19 +518,19 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
-.resume .resume-title {
-  font-size: 26px;
-  font-weight: 500;
+/* .resume .resume-title {
+  font-size: 2em;
+  font-weight: 300;
+  padding: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
   color: #4b7dab;
   font-family: "Poppins", sans-serif;
-}
+} */
 
-.resume-title .resume-button {
+.section-title .resume-button {
   color: #d43076;
-  padding: 0;
-  margin: 0 auto 35px auto;
+  margin: 45% auto 35px auto;
   list-style: none;
   text-align: center;
   background: #fff;
