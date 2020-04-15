@@ -486,13 +486,13 @@ section {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
-.skills .progress {
+.skills .icons {
   height: 50px;
   display: block;
   background: none;
 }
 
-.skills .progress .skill {
+.skills .icons .details {
   padding: 0;
   margin: 0 0 6px 0;
   text-transform: uppercase;
@@ -500,14 +500,11 @@ section {
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   color: #2c4964;
-}
-
-.skills .progress .skill .val {
   float: right;
   font-style: normal;
 }
 
-.skills .progress-bar-wrap {
+/* .skills .progress-bar-wrap {
   background: #fbeaf1;
 }
 
@@ -516,7 +513,7 @@ section {
   height: 10px;
   transition: .9s;
   background-color: #dd5a92;
-}
+} */
 
 /*--------------------------------------------------------------
 # Resume
@@ -528,6 +525,11 @@ section {
   margin-bottom: 20px;
   color: #4b7dab;
   font-family: "Poppins", sans-serif;
+}
+
+.resume-title .resume-button {
+  align-content: center;
+  color: #d43076;
 }
 
 .resume .resume-item {
@@ -577,90 +579,6 @@ section {
   top: 0;
   background: #fff;
   border: 2px solid #d43076;
-}
-
-/*--------------------------------------------------------------
-# Services
---------------------------------------------------------------*/
-.services .icon-box {
-  padding: 20px 15px;
-  position: relative;
-  overflow: hidden;
-  background: #fff;
-  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.2);
-  transition: all 0.3s ease-in-out;
-  border-radius: 8px;
-  text-align: center;
-  z-index: 1;
-}
-
-.services .icon-box::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 0;
-  transition: ease-in-out 0.3s;
-  z-index: -1;
-}
-
-.services .icon-box:hover::before {
-  background: #d43076;
-  height: 100%;
-  border-radius: 0px;
-}
-
-.services .icon {
-  margin: 0 auto 30px auto;
-  padding-top: 10px;
-  display: inline-block;
-  text-align: center;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  background: #d43076;
-  transition: all 0.3s ease-in-out;
-}
-
-.services .icon i {
-  font-size: 36px;
-  line-height: 1;
-  color: #fff;
-}
-
-.services .title {
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 18px;
-}
-
-.services .title a {
-  color: #111;
-}
-
-.services .description {
-  font-size: 15px;
-  line-height: 24px;
-  margin-bottom: 0;
-}
-
-.services .icon-box:hover .title a, .services .icon-box:hover .description {
-  color: #fff;
-}
-
-.services .icon-box:hover .icon {
-  background: #fff;
-}
-
-.services .icon-box:hover .icon i {
-  color: #d43076;
-}
-
-@media (max-width: 768px) {
-  .services .icon-box::before {
-    bottom: 60%;
-  }
 }
 
 /*--------------------------------------------------------------
