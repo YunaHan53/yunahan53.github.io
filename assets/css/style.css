@@ -676,7 +676,7 @@ section {
 .portfolio .portfolio-wrap .portfolio-links {
   opacity: 0;
   left: 0;
-  top: 10%;
+  top: 0;
   right: 0;
   bottom: 10%;
   text-align: left;
