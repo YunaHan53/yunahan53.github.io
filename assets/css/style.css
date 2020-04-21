@@ -676,9 +676,10 @@ section {
 .portfolio .portfolio-wrap .portfolio-links {
   opacity: 0;
   left: 0;
+  top: 10%;
   right: 0;
-  bottom: 0;
-  text-align: right;
+  bottom: 10%;
+  text-align: left;
   z-index: 3;
   position: absolute;
   transition: all ease-in-out 0.3s;
