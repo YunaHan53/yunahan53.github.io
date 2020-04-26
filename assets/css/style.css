@@ -531,7 +531,7 @@ section {
   font-family: "Poppins", sans-serif;
 } */
 
-.section-title .resume-button {
+.resume-button {
   color: #d43076;
   margin: 45% auto 35px auto;
   list-style: none;
@@ -542,7 +542,7 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.08);
 }
 
-.resume .resume-item {
+/* .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
   border-left: 2px solid #d43076;
@@ -589,7 +589,7 @@ section {
   top: 0;
   background: #fff;
   border: 2px solid #d43076;
-}
+} */
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -662,14 +662,14 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
-  font-size: 20px;
+  font-size: 1em;
   color: #fff;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
   color: #ffffff;
-  font-size: 14px;
+  font-size: .625em; /* 10/16 */
   text-transform: uppercase;
 }
 
@@ -686,7 +686,9 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #fff;
+  background-color: #fff;
+  border: 2px solid #d43076;
+  color: #d43076;
   margin: 0 2px;
   font-size: 28px;
   display: inline-block;
@@ -718,7 +720,7 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
-.testimonials .testimonial-item {
+/* .testimonials .testimonial-item {
   box-sizing: content-box;
   min-height: 320px;
 }
@@ -798,7 +800,7 @@ section {
   .testimonials {
     margin: 30px 10px;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Contact
