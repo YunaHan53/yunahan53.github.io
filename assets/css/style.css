@@ -525,7 +525,7 @@ section {
 .resume-button {
   color: #d43076;
   border: 2px solid #d43076;
-  margin: 45% auto 35px auto;
+  margin: 2% auto 2% auto;
   list-style: none;
   text-align: center;
   align-content: center;
@@ -533,6 +533,10 @@ section {
   border-radius: 50px;
   padding: 15px 15px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.08);
+}
+
+.resume-button a:hover {
+  color: #e684ae;
 }
 
 
@@ -629,12 +633,13 @@ section {
 }
 
 .portfolio-links a {
-  background-color: #fff;
-  border: 2px solid #d43076;
   color: #d43076;
-  margin: 0 2px;
-  padding: 5px 50px;
-  font-size: 28px;
+  border: 2px solid #d43076;
+  margin: 5px 20px;
+  background-color: #fff;
+  border-radius: 50px;
+  padding: 15px 15px;
+  font-size: 1.5em;
   display: inline-block;
   transition: 0.3s;
 }
