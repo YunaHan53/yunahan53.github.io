@@ -537,6 +537,9 @@ section {
 
 .resume-button:hover {
   background-color: #d43076;
+}
+
+.resume-button a:hover {
   color: #fff;
 }
 
