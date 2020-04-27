@@ -611,8 +611,7 @@ section {
   transition: all ease-in-out 0.3s;
 }
 
-.portfolio .portfolio-wrap .portfolio-info h4,
-.portfolio .portfolio-wrap .portfolio-into h3 {
+.portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 1rem;
   color: #fff;
   font-weight: 500;
@@ -622,6 +621,7 @@ section {
 .portfolio .portfolio-wrap .portfolio-info p {
   color: #ffffff;
   font-size: .75rem; /* 12px/16px */
+  padding: 5%;
 }
 
 /* .portfolio .portfolio-wrap .portfolio-links {
