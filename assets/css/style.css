@@ -370,7 +370,9 @@ section {
 }
 
 .section-bg {
-  background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+  /* background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%); */
+  background: #fff;
+  border-top: 1px solid #f2f6f9;
 }
 
 .section-title {
