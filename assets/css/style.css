@@ -422,7 +422,7 @@ section {
 
 .about .image {
   background: url("../img/YunaPic.jpg") center center no-repeat;
-  background-size: cover;
+  background-size: contain;
   min-height: 400px;
 }
 
