@@ -421,7 +421,7 @@ section {
 }
 
 .about .image {
-  background: url("../img/YunaPic.jpg") center center no-repeat;
+  background: url("../img/pose1-sm.jpg") center center no-repeat;
   background-size: contain;
   min-height: 400px;
 }
