@@ -422,7 +422,7 @@ section {
 
 .about .image {
   background: url("../img/pose1-sm.jpg") center center no-repeat;
-  background-size: contain;
+  background-size: cover;
   min-height: 400px;
 }
 
